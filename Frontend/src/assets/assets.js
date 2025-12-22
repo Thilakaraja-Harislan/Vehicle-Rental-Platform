@@ -8,6 +8,9 @@ import vehicleIconColored from "../assets/vehicle-colored.svg";
 import listIcon from "../assets/list.png";
 import listIconColored from "../assets/list-colored.png";
 import user_profile from "../assets/user-profile.svg"
+import search_icon from "../assets/search-icon.png"
+import menu_icon from "../assets/menu-icon.svg"
+import close_icon from "../assets/close-icon.svg"
 
 
 export const assets = {
@@ -21,6 +24,9 @@ export const assets = {
     listIcon,
     listIconColored,
     user_profile,
+    search_icon,
+    menu_icon,
+    close_icon,
 };
 
 export const menuLinks = [
