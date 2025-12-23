@@ -1,4 +1,4 @@
-export default function Hero() {
+export default function Home() {
   return (
     <section className="bg-gradient-to-br from-fuchsia-400 to-fuchsia-200 rounded-b-[100px] px-10 py-20 text-white text-center">
       

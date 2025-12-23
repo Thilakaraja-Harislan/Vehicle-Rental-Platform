@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Home from "./pages/Home";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +10,7 @@ function App() {
   return (
      <div className="font-sans">
       <Navbar />
-      <Hero />
+      <Home />
     </div>
   )
 }
