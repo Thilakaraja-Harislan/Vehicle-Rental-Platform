@@ -11,6 +11,8 @@ import user_profile from "../assets/user-profile.svg"
 import search_icon from "../assets/search-icon.png"
 import menu_icon from "../assets/menu-icon.svg"
 import close_icon from "../assets/close-icon.svg"
+import hero_vehicle from "../assets/hero-vehicle.jpg"
+
 
 
 export const assets = {
@@ -27,6 +29,7 @@ export const assets = {
     search_icon,
     menu_icon,
     close_icon,
+    hero_vehicle,
 };
 
 export const menuLinks = [
