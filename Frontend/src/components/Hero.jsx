@@ -82,7 +82,7 @@ const formChildVariants = {
                   text-white text-center relative overflow-hidden"
       >
 
-             {/* Simple CSS crossfade - all images stacked */}
+        {/* Simple CSS crossfade - all images stacked */}
         <div className="absolute inset-0">
           {backgroundImages.map((image, index) => (
             <div
