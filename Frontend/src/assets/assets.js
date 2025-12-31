@@ -15,10 +15,10 @@ import arrow_icon from "../assets/arrow-icon02.svg"
 import search_icon from "../assets/search-icon.png"
 import menu_icon from "../assets/menu-icon.svg"
 import close_icon from "../assets/close-icon.svg"
-import hero_vehicle from "../assets/hero-vehicle.jpg"
 import background_vehicle from "../assets/background-jeep.png"
 import background_vehicle02 from "../assets/background-car.jpg"
 import background_vehicle03 from "../assets/background-bike02.AVIF"
+import banner_vehicle_image from "../assets/banner-image02.png"
 
 import toyotaPrius from "./vehicles/car/toyota-prius.jpg";
 import suzukiAlto from "./vehicles/car/suzuki-alto.jpg";
@@ -56,10 +56,10 @@ export const assets = {
     search_icon,
     menu_icon,
     close_icon,
-    hero_vehicle,
     background_vehicle,
     background_vehicle02,
-    background_vehicle03
+    background_vehicle03,
+    banner_vehicle_image
 };
 
 export const menuLinks = [

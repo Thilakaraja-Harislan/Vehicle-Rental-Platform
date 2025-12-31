@@ -26,7 +26,7 @@ export const FeaturedSection = () => {
          </div>
 
          <button onClick={() => {
-            navigate('/vehicle'); scrollTo(0,0)
+            navigate('/vehicles'); scrollTo(0,0)
          }}
          className='flex items-center justify-center gap-2 text-white px-8 py-4 bg-fuchsia-600 hover:bg-fuchsia-700 
          transition-colors duration-300 rounded-md mt-18 cursor-pointer'>
