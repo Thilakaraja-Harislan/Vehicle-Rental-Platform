@@ -5,8 +5,7 @@ export default function Banner() {
   return (
     <div className='flex flex-col md:flex-row md:items-start items-center
     justify-between px-8 min-md:pl-14 pt-10 bg-gradient-to-r from-fuchsia-800 to-fuchsia-300
-    max-w-6xl mx-3 md:mx-auto rounded-2xl overflow-hidden mb-10 
-    min-h-[280px] md:min-h-[320px] lg:min-h-[280px]'>
+    max-w-6xl mx-3 md:mx-auto rounded-2xl overflow-hidden my-10'>
 
         <div className='text-white w-full md:w-1/2 lg:w-3/5 
         text-center md:text-left mb-6 md:mb-0 md:pr-6 lg:pr-10'>
