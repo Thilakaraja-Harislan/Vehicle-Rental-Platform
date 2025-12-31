@@ -437,3 +437,62 @@ export const bookings = [
     status: "Pending"
   }
 ];
+
+// In your assets.js file, use placeholder images temporarily
+export const testimonials = [
+  {
+    id: 1,
+     name: "Lisa Anderson",
+    role: "Digital Nomad",
+    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200",
+    rating: 5,
+    text: "Perfect solution for my 3-month stay in Sri Lanka. Rented a compact car without driver for local exploration.",
+    location: "Negombo"
+  },
+  {
+    id: 2,
+    name: "Rajesh Fernando",
+    role: "Business Traveler",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=200",
+    rating: 5,
+    text: "As a frequent business traveler, I appreciate the flexibility of both self-drive and chauffeur options.",
+    location: "Kandy"
+  },
+  {
+    id: 3,
+    name: "Priya Menon",
+    role: "Family Vacationer",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200",
+    rating: 5,
+    text: "Rented a spacious van with driver for our family holiday. The process was seamless!",
+    location: "Galle"
+  },
+  {
+    id: 4,
+    name: "David Chen",
+    role: "Adventure Enthusiast",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200",
+    rating: 4,
+    text: "Great experience renting a 4x4 for my hill country adventure. The self-drive option was perfect!",
+    location: "Nuwara Eliya"
+  },
+   {
+    id: 5,
+    name: "Mohammed Ali",
+    role: "Tour Guide",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200",
+    rating: 5,
+    text: "I regularly recommend FlexiRide to my tour clients. Their vehicles are always clean and reliable.",
+    location: "Colombo"
+  },
+    {
+    id: 6,
+    name: "Sarah Johnson",
+    role: "Tourist from UK",
+    image: "https://images.unsplash.com/photo-1494790108755-2616b786d4d9?q=80&w=200",
+    rating: 5,
+    text: "FlexiRide made our Sri Lanka trip unforgettable! Renting with a driver was the best decision.",
+    location: "Colombo"
+  }
+ 
+];
