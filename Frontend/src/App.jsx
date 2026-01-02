@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import VehicleDetails from './pages/VehicleDetails';
 import Vehicles from './pages/Vehicles';
 import MyBookings from './pages/MyBookings';
+import Footer from "./components/Footer";
 
 function App() {
   const [showLogin, setShowLogin] = useState(0)
@@ -20,6 +21,8 @@ function App() {
         <Route path='/Vehicles' element={<Vehicles/>}/>
         <Route path='/my-bookings' element={<MyBookings/>}/>
       </Routes>
+
+      <Footer />
 
     </div>
   )

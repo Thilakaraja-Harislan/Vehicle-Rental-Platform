@@ -1,15 +1,29 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {assets, menuLinks} from '../assets/assets'
 import {Link, useLocation} from 'react-router-dom'
 
 export default function Navbar() {
    const location = useLocation();
    const [open, setOpen] = useState(false);
+   const [scrolled, setScrolled] = useState(false);
+
+   useEffect(() => {
+    if(open) {
+      document.body.classList.add('overflow-hidden');
+    } else {
+      document.body.classList.remove('overflow-hidden');
+    }
+
+    return () => {
+      document.body.classList.remove('overflow-hidden');
+    };
+   }, [open]);
 
   return (
 
-   <div className={`flex items-center justify-between px-6 md:px-16 lg:px-24
-                    xl:px-12 py-4 text-gray-600 relative transition-all
+   <div className={`sticky top-0 z-50 flex items-center justify-between px-6 md:px-16 lg:px-24
+                    xl:px-12 py-4 text-gray-600 relative transition-all bg-gray-200 border-gray-800 shadow-gray-800
+
                     ${location.pathname === "/" && "bg-light"}`}>
 
        {/* Logo on the left */}
