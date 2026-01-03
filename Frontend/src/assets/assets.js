@@ -15,6 +15,7 @@ import arrow_icon from "../assets/arrow-icon02.svg"
 import search_icon from "../assets/search-icon.png"
 import menu_icon from "../assets/menu-icon.svg"
 import close_icon from "../assets/close-icon.svg"
+import check_icon from "../assets/check-icon02.png"
 import background_vehicle from "../assets/background-jeep.png"
 import background_vehicle02 from "../assets/background-car.jpg"
 import background_vehicle03 from "../assets/background-bike02.AVIF"
@@ -56,6 +57,7 @@ export const assets = {
     search_icon,
     menu_icon,
     close_icon,
+    check_icon,
     background_vehicle,
     background_vehicle02,
     background_vehicle03,
